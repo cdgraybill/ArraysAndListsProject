@@ -38,6 +38,7 @@ namespace ArraysAndLists
             }
 
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Red;
 
             Console.WriteLine("Evens");
             for (int i = 2; i < 11; i += 2)
